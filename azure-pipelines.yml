@@ -12,6 +12,8 @@ pool:
 resources:
  repositories:
    - repository: proj
+     name: proj
+     type: git
      trigger:
       branches:
         include:
